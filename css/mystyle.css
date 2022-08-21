@@ -1,0 +1,164 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    /* background-color: #3CA03C; */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+body {
+    background-color: #ecf4fb;
+}
+
+
+/* login */
+.login-photo {
+    padding: 100px 0
+}
+
+.login-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url("../img/profile/login.jpg");
+    background-size: cover;
+    background-position: 60%;
+}
+
+.login-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.login-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+}
+
+@media (max-width:991px) {
+    .login-photo form {
+        padding: 40px
+    }
+}
+
+.login-photo form h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+/* register */
+.register-photo {
+    padding: 100px 0
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url("../img/profile/register.jpg");
+    background-size: cover;
+    background-position: 75%;
+}
+
+.register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+    display: table-cell;
+    width: 500px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+}
+
+@media (max-width:991px) {
+    .register-photo form {
+        padding: 40px
+    }
+}
+
+.register-photo form h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+
+/* forgot */
+.forgot-photo {
+    padding: 100px 0
+}
+
+.forgot-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url("../img/profile/forgot.jpg");
+    background-size: cover;
+    background-position: 1%;
+}
+
+.forgot-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.forgot-photo form {
+    display: table-cell;
+    width: 420px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+}
+
+@media (max-width:991px) {
+    .forgot-photo form {
+        padding: 40px
+    }
+}
+
+.forgot-photo form h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    /* margin-bottom: 30px */
+}
